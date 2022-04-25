@@ -6,15 +6,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Pet&shop</title>
 
-    <script type="text/javascript" language="javascript" src="javascript/jquery.js"></script>
+
     <script src="https://kit.fontawesome.com/94a61b71fb.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css" title="text/css">
+
+
 </head>
 
 <body>
+
 
     <header>
 
@@ -24,40 +28,59 @@
 
             <nav class="menu">
                 <ul>
-                    <li >
+
+
+                    <a class="conteudo" style="color: white; background-color: #ff0077"
+                        href="http://127.0.0.1:5500/index.html">Home</label>
+
+                        <a class="conteudo" href="http://127.0.0.1:5500/sobre.html">Sobre</a>
+
+                        <a class="conteudo" href="http://127.0.0.1:5500/produto.html">Produto</a>
+
+                        <a class="conteudo" href="http://127.0.0.1:5500/sobre.html">Serviços</a>
+
+                        <a class="conteudo" href="http://127.0.0.1:5500/sobre.html">Fale conosco</a>
+
+                        <!-- <li class="button">
                         <input type="radio" name="tabs" class="actives" id="tab1">
-                        <label for="tab1">Home</label>
-                        <div class="content"></div>
-                        <!-- <a  href="#">Home</a> -->
+                        <label for="tab1">
+                        <a class="conteudo" style="color: white; background-color: #ff0077" href="http://127.0.0.1:5500/index.html">Home</label>
+                            <div class="content"></div>
+
+                            <a  href="#">Home</a>
                     </li>
 
-                    <li>
-                        <input type="radio" name="tabs" class="actives" id="tab2">
-                        <label  for="tab2">Sobre</label>
-                        <div class="content"></div>
-                        <!-- <a class="active" href="#">Sobre a impresa</a> -->
+                    <li class="button">
+                        <input type="radio" name="tabs" class="actives" id="tab2" >
+                        <label for="tab2">Sobre</label>
+                        <a class="conteudo" href="http://127.0.0.1:5500/sobre.html">Sobre</a>
+                        <div class="content">
+                        </div>
+
+                        <a class="active" href="#">Sobre a impresa</a>
                     </li>
 
                     <li>
                         <input type="radio" name="tabs" class="actives" id="tab5">
-                        <label  for="tab5">Produto</label>
-                        <div class="content"></div>
-                        <!-- <a class="active" href="#">Sobre a impresa</a> -->
+
+                        <label for="tab5">Produto</label>
+                        <div class="content1"></div>
+                        <a class="active" href="#">Sobre a impresa</a>
                     </li>
 
                     <li>
                         <input type="radio" name="tabs" class="actives" id="tab3">
                         <label for="tab3">Serviços</label>
-                        <div class="content"></div>
-                        <!-- <a class="active" href="#">Serviços</a> -->
+                        <div class="content2"></div>
+                        <a class="active" href="#">Serviços</a>
                     </li>
 
                     <li>
                         <input type="radio" name="tabs" class="actives" id="tab4">
                         <label for="tab4">Fale conosco</label>
-                        <div class="content"></div>
-                        <!-- <a class="active" href="#">Fale conosco</a> -->
-                    </li>
+                        <div class="content3"></div>
+                        <a class="active" href="#">Fale conosco</a>
+                    </li> -->
 
                 </ul>
 
@@ -81,6 +104,7 @@
         <img src="images/banner.jpg" alt="Banner" />
     </section>
 
+
     <section>
         <h1 class="center">Nossos serviços</h1>
     </section>
@@ -88,18 +112,18 @@
 
     <section class="images">
 
-        <div>
+        <div class="paragrafoEscopo">
             <i class="fa-solid fa-paw paw_mod"></i>
             <h4>Produtos</h4>
 
-            <div>
+            <div class="paragrafo2">
                 <p class="paragrafo">Uma variedade de rações, petiscos, brinquedos e acessórios para atender o seu
                     amiguinho da melhor
                     forma.</p>
             </div>
         </div>
 
-        <div>
+        <div class="paragrafoEscopo">
             <i class="fa-solid fa-shower shower_mod "></i>
             <h4>Banho e tosa</h4>
 
@@ -109,7 +133,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="paragrafoEscopo">
             <i class="fa-solid fa-syringe syringe_mod "></i>
             <h4>Centro Médico</h4>
             <div>
@@ -122,10 +146,9 @@
             <i class="fa-solid fa-dog dog_mod"></i>
             <h4>Creche</h4>
 
-            <div>
+            <div class="paragrafoEscopo">
                 <p class="paragrafo">Traga seu pet para interagir com a nossa equipe e sociabilizar com outros animais e
-                    fique tranquilo(a)
-                    para suas atividades do dia-a-dia.</p>
+                    fique tranquilo(a) para suas atividades do dia-a-dia.</p>
             </div>
         </div>
 
@@ -139,7 +162,7 @@
 
         <form class="middle">
             <div class="container">
-                <img width="300px" src="images/logo-white.svg" alt="Logo branca">
+                <img class="logoBranca" width="300px" src="images/logo-white.svg" alt="Logo branca">
                 <p>
                     <strong> Só quem é apaixonado por animais sabe:</strong> a relação de amor e cumplicidade que
                     temos com nossos
@@ -151,6 +174,91 @@
                 </p>
             </div>
         </form>
+
+    </section>
+
+
+    <section>
+        <h1>Produtos em destaque</h1>
+
+        <div class="produtosDestaque1">
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-1.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">R$ 109,90</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-2.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-3.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-4.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-5.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-6.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+        </div>
+
+        <div class="produtosDestaque2">
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-7.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-8.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-9.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-10.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-11.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+
+            <div class="produtosDestaque">
+                <img class="imageProduto" src="images\product-12.webp" alt="">
+                <p class="descricao">Royal Canin Maxi Adult 15kg</p>
+                <p class="valor">109</p>
+            </div>
+        </div>
 
     </section>
 
