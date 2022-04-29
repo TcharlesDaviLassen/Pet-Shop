@@ -811,6 +811,12 @@ form textarea:focus {
     display: flex;
 }
 
+#A{
+ color: black;
+}
+#B{
+    color:#0077ff;
+}
 #contact {
     padding-top: 40px;
     margin-left: 62%;
@@ -819,23 +825,20 @@ form textarea:focus {
 
 }
 
-.conteiner3 {
+.containe3 {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    flex-direction: column;
 
-    padding-top: 10px;
-    margin-right: 40%;
-    margin-left: 10%;
+    padding-top: 40px;
+    margin-right: 20%;
 
-
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .maps {
     display: block;
     flex-wrap: wrap;
-
-
 
     padding-top: 40px;
     padding-bottom: 10px;
@@ -848,7 +851,7 @@ form textarea:focus {
     min-height: 30px;
     margin-bottom: 20px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 5px;
 
 
     border-style: solid;
@@ -918,6 +921,7 @@ footer {
 .line2 {
     margin-top: -162px;
     align-items: center;
+    font-size :10px;
 }
 
 .icons {
