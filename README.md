@@ -4,7 +4,7 @@ Cuide dos pets, gerencie serviços e otimize o atendimento com este sistema comp
 
 ## 📅 Visão Geral
 O **Pet Shop Manager** é uma aplicação voltada para gestão de pet shops. Ideal para organizar agendamentos, controlar serviços oferecidos, cadastrar clientes e animais de estimação, tudo em uma plataforma intuitiva e responsiva.
-
+<!--
 ## 🚀 Funcionalidades
 - 💼 Cadastro de clientes e pets
 - ⏰ Agenda de serviços e horários
@@ -17,6 +17,7 @@ O **Pet Shop Manager** é uma aplicação voltada para gestão de pet shops. Ide
 - **Backend**: (ex: Node.js, Java Spring Boot, etc.)
 - **Banco de Dados**: (ex: MySQL, MongoDB, SQLite)
 - **Extras**: Autenticação JWT, responsividade, APIs REST
+-->
 
 ## ✨ Como Executar o Projeto
 1. Clone o repositório:
@@ -27,10 +28,13 @@ O **Pet Shop Manager** é uma aplicação voltada para gestão de pet shops. Ide
    ```bash
    cd Pet-Shop
    ```
+<!--
 3. Siga as instruções no README da pasta `frontend` e `backend` para iniciar cada parte da aplicação.
-
+-->
+<!--
 ## 📚 Documentação
 A documentação completa com exemplos de uso da API, modelos de dados e instruções adicionais está na pasta `/docs` (ou adicione aqui se não existir ainda).
+-->
 
 ## 🙌 Contribuições
 Sugestões, melhorias e novas funcionalidades são super bem-vindas!
